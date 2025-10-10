@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class Camera : MonoBehaviour
+public class CameraFollow : MonoBehaviour
 {
 
     [SerializeField] private float YMin = -20.0f;
@@ -37,3 +37,4 @@ public class Camera : MonoBehaviour
 
         transform.LookAt(lookAt.position);
     }
+}
